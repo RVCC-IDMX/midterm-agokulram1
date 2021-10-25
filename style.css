@@ -1,0 +1,302 @@
+/* Journey to the Center of the Earth Practicum */
+/* By Gokul Ram */
+
+/* styling all structural elements */
+
+html{
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(rgba(118,87,41, 0.9), rgba(0,0,0,0.9));
+  font-size: .75vw;
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  
+  main {
+    width: auto;
+    float: none;
+   display: block;
+  }
+  
+  aside {
+    width: auto;
+    float: none; 
+
+  }
+
+  footer {
+    width: 98%;
+    float: none;
+    display: block;
+  }
+
+  .submission {
+    padding: 5px;
+    border: 1px solid black;    
+    background-color: rgba(223, 221, 221, 0.75);
+    font-size: 1vw;
+    max-width: 20vw;
+    margin: 1vw;
+    height: 5vw;
+   display:inline-table;
+    width: 100%;
+} 
+}
+
+@media only screen and (min-width: 786px) and (max-width: 1022px) {
+   /* For ipads : */
+ 
+  main {
+    width: auto;
+    float: none;
+   display: block;
+  }
+  
+  aside {
+    width: auto;
+    float: none; 
+
+  }
+
+  footer {
+    width: 98%;
+    float: none;
+    display: block;
+  }
+
+  .submission {
+    padding: 5px;
+    border: 1px solid black;    
+    background-color: rgba(223, 221, 221, 0.75);
+    font-size: 1vw;
+    max-width: 2vw;
+    margin: 1vw;
+    height: 5vw;
+   display:inline-table;
+    width: 100%;
+} 
+
+}
+
+@media only screen and (min-width: 1024px) {
+  /* For desktops: */
+ 
+
+ 
+  main {
+  
+    width: 75%; 
+
+    float: left;
+   display: block;
+  }
+  
+  aside {
+    width: 20%;
+    float:right;
+
+    box-sizing: inherit;
+    
+    height: 61.1vw;
+  }
+
+  footer {
+    width: 98%;
+    float: left;
+    display: block;
+  }
+
+  .submission {
+    padding: .5vw;
+    border: .1vw solid black;    
+    background-color: rgba(223, 221, 221, 0.75);
+    font-size: 1vw;
+    max-width: 1vw;
+    margin: 1vw;
+    height: auto;
+    display:block;
+    width: 13vw;
+} 
+} 
+
+
+
+header {
+padding: 5px;
+  text-align: center;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 10);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin: 0px;
+  border: 0.5vw solid rgb(118,87,41);
+  background-repeat: no-repeat;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: inset 2em 1em 1em rgba(00, 0, 0, 1);
+  background-image: url("img/cave.jpg");
+  background-position: center;
+}
+
+p:nth-child(3)::first-line {
+  font-size: 1.5vw;
+}
+
+
+aside {
+    padding: 0px;
+    position: relative;
+    padding-top: 1vw;
+    text-align: center;
+    background: rgba(255, 255, 255, .75);
+    color: rgba(0,0,0, 10);
+    border: 0.5vw solid rgb(118,87,41);
+    box-shadow: inset 1em 1em 1em rgba(00, 0, 0, 0.4);
+    margin: 0px;
+    max-height: 100%;
+    font-size: 1vw;
+  }
+
+main{
+ 
+  height: auto;
+  background-color: rgba(255, 255, 255, .75);
+  border: 0.5vw solid rgb(118,87,41);
+  background-repeat: no-repeat;
+  font-size: 1vw;
+ 
+  background-size: auto;
+  padding: 1vw;
+  box-shadow: inset 1em 1em 1em rgba(00, 0, 0, 0.4);
+  background-image: rgba(118, 87, 41, 0.3);
+}
+
+nav {
+    text-align: center;
+    margin: 0px;
+    border: 0.5vw solid rgb(118,87,41);
+    background-repeat: no-repeat;
+    background-size: auto;
+    box-shadow: inset 1em 1em 1em rgba(00, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, .75);
+    }
+
+ul {
+      
+   list-style-type: none;
+   margin: 3;
+   padding: 0;
+        overflow: hidden;
+        max-width: 60vw;
+        margin-right: auto;
+        margin-left: auto;
+
+      }
+        
+      li {
+        float: left;
+
+      }
+      
+      li a {
+        display: block;
+        color: rgba(0, 0, 0,100);
+
+        text-align: center;
+        padding-top: .5vw;
+        padding-right: 1.5vw;
+        padding-left: 1.5vw;
+        text-decoration: none;
+        font-size: 1.5vw;
+       
+      }
+
+      li a:nth-child(1){
+        border-right: 5px double rgb(0,0,0);
+        }
+        li a:nth-child(2){
+          border-right: 5px double rgb(0,0,0);
+        }
+        li a:nth-child(3){
+          border-right: 5px double rgb(0,0,0);
+        }
+
+      footer {
+        padding: 5px;
+          text-align: center;
+          background: rgba(255, 255, 255, .75);
+          color: rgba(255, 255, 255, 10);
+          border-bottom-left-radius: 1.5vw;
+          border-bottom-right-radius: 1.5vw;
+          border: 0.5vw solid rgb(118,87,41);
+          margin: 1vw solid rgb(226, 141, 12,1);
+          box-shadow: inset 1em 1em 1em rgba(00, 0, 0, 0.4);
+          font-size: 1vw;
+     
+        }
+
+       figure {
+          image-rendering: auto;
+          width: 30vw;
+          margin: auto;
+          display: flex;
+          flex-direction: column;
+         justify-content: center;
+        }
+
+        figcaption {
+          padding-top: .5vw;
+          text-align: center;
+          font-style: italic;
+          color: #000;
+      
+        }
+        #cover {
+          float: left;
+          padding-right: 1.25vw;
+          height: auto;
+          width: 15vw;
+        }
+
+
+         h2 {
+        padding: .5vw;
+        border-bottom: .1vw dashed black;
+        font-size: 1.5vw;
+        line-height: 1vw;
+         }
+       
+         .submission {
+          padding: 5px;
+          border: 1px solid black;    
+          background-color: rgba(223, 221, 221, 0.75);
+          font-size: 1vw;
+          max-width: 18vw;
+          margin: 1vw;
+          
+         
+          }
+
+    .character {
+      border-right: none;
+      font-weight: bold;
+      font-size: 1.25vw;
+      
+    }
+
+  
+    :lang(fr) 	{
+      font-style: italic;
+      font-size: 1vw;
+    }
+    a:link, a:visited{
+      color: #000;
+      text-decoration: none;
+    }
+    a:hover {
+      color: rgb(163,42,42);
+    }
+   
